@@ -1,0 +1,19 @@
+{
+    "menu": [
+        {
+            "category": "Appetizers",
+            "image": "images/appetizers.jpg",
+            "items": ["Spring Rolls", "Bruschetta", "Garlic Bread"]
+        },
+        {
+            "category": "Mains",
+            "image": "images/mains.jpg",
+            "items": ["Grilled Chicken", "Steak", "Pasta Carbonara"]
+        },
+        {
+            "category": "Desserts",
+            "image": "images/desserts.jpg",
+            "items": ["Cheesecake", "Brownie", "Ice Cream"]
+        }
+    ]
+}

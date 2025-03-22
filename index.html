@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- https://demo.awaikenthemes.com/html-preview/fwizz/html/ -->
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Venus Caterings">
+    <!-- Page Title -->
+    <title>Venus-Caterings</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="gn.png">
+    <!-- Google Fonts css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&amp;family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap css -->
+    <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- SlickNav css -->
+    <link href="slicknav.min.css" rel="stylesheet">
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <!-- Font Awesome icon css-->
+    <link href="all.min.css" rel="stylesheet" media="screen">
+    <!-- Animated css -->
+    <link href="animate.css" rel="stylesheet">
+    <!-- Magnific css -->
+    <link href="magnific-popup.css" rel="stylesheet">
+    <!-- Main custom css -->
+    <link href="custom.css" rel="stylesheet" media="screen">
+
+    <style>
+        .logosize {
+            width: 100px;
+        }
+
+        @media(max-width:990px) {
+            .logosize {
+                width: 60px;
+            }
+            .top {
+                margin-top: -2%;
+            }
+        }
+
+        .gradient-border {
+            border-width: 9px;
+            border-style: solid;
+            border-image: linear-gradient(to right, #f19329, #951F44, #d69c47);
+            border-image-slice: 1;
+            box-sizing: border-box;
+        }
+
+        .gradient-underline {
+            position: relative;
+            text-decoration: none;
+            /* Remove default underline */
+            display: inline-block;
+        }
+
+        .gradient-underline::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            /* Adjust this value to control the distance of the underline from the text */
+            width: 50%;
+            height: 3px;
+            /* Set the height of the underline */
+            background: linear-gradient(to right, #f19329, #906221, #d69c47);
+            /* Adjust colors as needed */
+            opacity: 0.7;
+            /* Adjust the opacity if needed */
+            transition: height 0.3s ease;
+            /* Optional: add a smooth transition effect */
+        }
+
+        .gradient-underline:hover::after {
+            height: 4px;
+            /* Adjust the height on hover */
+        }
+
+        .word-animation {
+            opacity: 0;
+            animation: zoomInOut 2s ease forwards;
+        }
+
+        @keyframes zoomInOut {
+            0% {
+                transform: scale(0.8);
+                opacity: 0.2;
+            }
+            50% {
+                transform: scale(1.5);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(0.6);
+                opacity: 0.2;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="tt-magic-cursor goto-top">
+
+    <!-- Preloader Start -->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="loader.svg" alt=""></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Magic Cursor Start -->
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <!-- Magic Cursor End -->
+
+    <!-- Header Start -->
+    <header class="main-header fixed-top" id="hero-section">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container top">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="gn.png" alt="Logo" style="height: 80px; width: auto;">
+                    </a>
+                    <!-- Logo End -->
+
+                    <!-- Main Menu start -->
+                    <div class="collapse navbar-collapse main-menu">
+                        <ul class="navbar-nav mr-auto" id="menu">
+                            <li class="nav-item first-menu"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                            <li class="nav-item submenu"><a class="nav-link" href="sudhasmenu.html">Menu</a>
+                                <ul>
+                                    <li><a href="sudhasmenu.html">Wedding menu</a></li>
+                                    <li><a href="menu2.html">60th wedding menu</a></li>
+                                    <li><a href="menu3.html">70th wedding menu</a></li>
+                                    <li><a href="menu4.html">80th wedding menu</a></li>
+                                    <li><a href="menu5.html">Engagement menu</a></li>
+                                    <li><a href="menu6.html">Seemantham menu</a></li>
+                                    <li><a href="menu7.html">Annaprasana ceremony</a></li>
+                                    <li><a href="menu8.html">Birthday menu</a></li>
+                                    <li><a href="menu9.html">House warming breakfast menu</a></li>
+                                    <li><a href="menu10.html">House warming lunch menu</a></li>
+                                    <li><a href="menu11.html">Mehndi Function menu</a></li>
+                                    <li><a href="menu12.html">Corporate menu</a></li>
+                                    <li><a href="menu13.html">Retirement Function menu</a></li>
+                                    <li><a href="menu14.html">Live counter</a></li>
+                                    <li><a href="menu15.html">Counters & stalls for wedding function</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li>
+
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item highlighted-menu"><a class="btn-default" href="https://wa.me/9840935064">Book Now</a></li>
+                        </ul>
+                    </div>
+                    <!-- Main Menu End -->
+
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Home Hero Section Start -->
+    <div class="hero parallaxie">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Section Title start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp" data-wow-delay="0.50s" s>Welcome to Venus Catering Service</h3>
+                        <!-- <h3 class="wow fadeInUp" data-wow-delay="0.50s">Venus Caterings</h3> -->
+                        <h1 class="text-anime" style="text-shadow:1px 1px 4px black"><span id="word2" class="word-animation"></span></h1>
+                        <p style="margin-top:20px;">We are the top vegetarian wedding caterer in Tamil Nadu. We have completed over 2,000+ weddings, supported by a professional team of 340 members.</p>
+
+                    </div>
+                    <!-- Section Title end -->
+
+                    <!-- Hero Content start -->
+
+                    <!-- Hero Content end -->
+
+                    <!-- Hero Footer start -->
+                    <div class="hero-footer">
+                        <a href="about.html" class="btn-default btn-book-now wow fadeInUp" data-wow-delay="1s">Explore</a>
+                        <a href="contact.html" class="btn-default btn-book-now wow fadeInUp" data-wow-delay="1.25s">Contact</a>
+                    </div>
+                    <!-- Hero Footer end -->
+                </div>
+            </div>
+
+        </div>
+        <div class="down-arrow">
+            <a href="#home-about"><img src="icon-down-arrow.svg" alt=""></a>
+        </div>
+    </div>
+    <!-- Home Hero Section End -->
+
+    <!-- Home About Section Start -->
+    <div class="home-about" id="home-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <!-- About Left Content Start -->
+                    <div class="home-about-left">
+                        <div class="home-about-img">
+                            
+                                <img src="fg.jpeg" alt="">
+                            
+                        </div>
+
+                        <div class="home-about-since">
+                            <h3>Since</h3>
+                            <h2>2021</h2>
+                        </div>
+                    </div>
+
+                    <!-- About Left Content End -->
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <!-- About Content Start -->
+                    <div class="home-about-right">
+                        <!-- Section Ttile Start -->
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp" data-wow-delay="0.50s">About Us</h3>
+                            <h2 class="text-anime" style=" ">Elevating Your Events with Exceptional Food.</h2>
+                        </div>
+                        <!-- Section Ttile Start -->
+
+                        <div class="home-about-content wow fadeInUp" data-wow-delay="0.75s">
+                            <p>Venus is The Place where Food is Celebrated over 25 Years. We Love to Create Unforgettable Culinary Experiences.</p>
+                        </div>
+
+                        <div class="">
+
+                            <div class="row mb-5">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="icon-box wow fadeInUp" style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; padding:20px; border-radius:10px;   ;">
+                                        <div class="icon-box-img">
+                                            <img src="mywcu2.png" alt="" style="width:60px;">
+                                        </div>
+                                        <div class="icon-box-content">
+                                            <h3>25 <br class="d-none d-lg-block" />Years of Experience</h3>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="icon-box wow fadeInUp" style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; padding:20px; border-radius:10px;  ;">
+                                        <div class="icon-box-img">
+                                            <img src="wcu1.png" alt="" style="width:60px;"></div>
+                                        <div class="icon-box-content">
+                                            <h3>2000+ <br class="d-none d-lg-block" /> Successful Marriages</h3>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="icon-box wow fadeInUp" style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; padding:20px; border-radius:10px;  ;">
+                                        <div class="icon-box-img">
+                                            <img src="wcu3.png" alt="" style="width:60px;"></div>
+                                        <div class="icon-box-content">
+                                            <h3>98% <br class="d-none d-lg-block" /> Repeated Customers</h3>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <a href="about.html" class="btn-default wow fadeInUp" data-wow-delay="1.50s">More About Us</a>
+                    </div>
+                    <!-- About Content End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home About Section End -->
+    <div class="events-post">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Section Title start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp" data-wow-delay="0.50s">What We Do</h3>
+                        <h2 class="text-anime" style=" ">Premium catering services</h2>
+                    </div>
+                    <!-- Section Title end -->
+                </div>
+            </div>
+
+            <div class="row">
+
+
+                <div class="col-lg-4 col-md-12">
+                    <!-- Post Item Start -->
+                    <div class="post-item wow fadeInUp" data-wow-delay="1.0s">
+                        <!-- Post Featured Image start -->
+                        <div class="post-featured-image">
+                            <a href="javascript:void(0)">
+                                <figure class="image-anime">
+                                    <img src="wedding.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Post Featured Image end -->
+
+                        <!-- Post Header Start -->
+                        <div class="post-header">
+
+                            <h3 class="gradient-underline mb-3"><a href="javascript:void(0)">Wedding Event</a></h3>
+                            <p>Wedding. Why we have the concept of inviting all our relatives, friends and known ones? Its because, when a family celebrates an event means, its an occasion, when lot of people celebrates an event means, it turns as a feast.
+                                If there any feast occurs without food?? We are here to make a memorable experience for your guests by pampering their taste buds.</p>
+                        </div>
+                        <!-- Post Header End -->
+                    </div>
+                    <!-- Post Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <!-- Post Item Start -->
+                    <div class="post-item wow fadeInUp" data-wow-delay="1.25s">
+                        <!-- Post Featured Image start -->
+                        <div class="post-featured-image">
+                            <a href="javascript:void(0)">
+                                <figure class="image-anime">
+                                    <img src="birthday.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Post Featured Image end -->
+
+                        <!-- Post Header Start -->
+                        <div class="post-header">
+
+                            <h3 class="gradient-underline mb-3"><a href="javascript:void(0)">Birthday Party
+							</a></h3>
+                            <p>Make every birthday a memorable one with our birthday photography. Whether it’s a child's first birthday or a milestone celebration, we capture the joy, excitement, and love of the day and preserve it forever. At Venus Catering
+                                Service, we take care of the happiness of your guests by offering them amazing food on behalf of you.</p>
+                        </div>
+                        <!-- Post Header End -->
+                    </div>
+                    <!-- Post Item End -->
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <!-- Post Item Start -->
+                    <div class="post-item wow fadeInUp" data-wow-delay="0.75s">
+                        <!-- Post Featured Image start -->
+                        <div class="post-featured-image">
+                            <a href="javascript:void(0)">
+                                <figure class="image-anime">
+                                    <img src="housewarming.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Post Featured Image end -->
+
+                        <!-- Post Header Start -->
+                        <div class="post-header">
+
+                            <h3 class="gradient-underline mb-3"><a href="javascript:void(0)">House Warming</a></h3>
+                            <p>Houses makes our life complete. Most of our life we are going to spend on the houses. So houses are always special. It carries out all the emotions of family and pass it to generations and on. In our society, building a house is considered as an achievement and it gives immense happiness and secured feel. We take of your guests and they will praise about your house and our food as well.</p>
+                        </div>
+                        <!-- Post Header End -->
+                    </div>
+                    <!-- Post Item End -->
+                </div>
+
+                <div class="col-12 d-flex flex-row justify-content-center">
+                    <a href="services.html" class="btn-default wow fadeInUp" data-wow-delay="1.50s">View All Services</a>
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us Start -->
+    <div class="why-choose-us" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <!-- Section Title start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp" data-wow-delay="0.50s">Why Choose us</h3>
+                        <h2 class="text-anime text-center" style="color:black; ">Leave Your Guests Speechless With Our Fabulous Food!</h2>
+
+                    </div>
+
+                    <!-- Section Title end -->
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Why Choose Us Image Box start -->
+                <div class="col-md-4 col-lg-3 col-lg-3 col-12">
+                    <div class="wcu-img-box wow fadeInUp gradient-border" data-wow-delay="0.50s" style="background-color:white; ">
+                        <!-- Image Box start -->
+                        <div class="image-box">
+                            <figure>
+                                <img src="n1.png" alt="" style="width:70px;">
+                            </figure>
+                        </div>
+                        <!-- Image Box end -->
+
+                        <!-- Image Box Body start -->
+                        <div class="image-body">
+                            <h3>Authentic Taste</h3>
+                            <p>Enjoy our traditional recipes, inspired by rich culinary heritage.</p>
+                        </div>
+                        <!-- Image Box Body end -->
+                    </div>
+                </div>
+                <!-- Why Choose Us Image Box end -->
+
+                <!-- Why Choose Us Image Box start -->
+                <div class="col-md-4 col-lg-3 col-12">
+                    <div class="wcu-img-box wow fadeInUp gradient-border" data-wow-delay="0.75s" style="background-color:white; ">
+                        <!-- Image Box start -->
+                        <div class="image-box">
+                            <figure>
+                                <img src="n2.png" alt="" style="width:70px;">
+                            </figure>
+                        </div>
+                        <!-- Image Box end -->
+
+                        <!-- Image Box Body start -->
+                        <div class="image-body">
+                            <h3>Service Excellence</h3>
+                            <p>Outstanding service and unforgettable experiences. .
+
+                            </p>
+                        </div>
+                        <!-- Image Box Body end -->
+                    </div>
+                </div>
+                <!-- Why Choose Us Image Box end -->
+
+                <!-- Why Choose Us Image Box start -->
+                <div class="col-md-4 col-lg-3 col-12">
+                    <div class="wcu-img-box wow fadeInUp gradient-border" data-wow-delay="1.0s" style="background-color:white; ">
+                        <!-- Image Box start -->
+                        <div class="image-box">
+                            <figure>
+                                <img src="n3.png" alt="" style="width:70px;">
+                            </figure>
+                        </div>
+                        <!-- Image Box end -->
+
+                        <!-- Image Box Body start -->
+                        <div class="image-body">
+                            <h3>Best Quality</h3>
+                            <p>Top quality standards, excellence in every bite.</p>
+                        </div>
+                        <!-- Image Box Body end -->
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 col-12">
+                    <div class="wcu-img-box wow fadeInUp gradient-border" data-wow-delay="1.0s" style="background-color:white; ">
+                        <!-- Image Box start -->
+                        <div class="image-box">
+                            <figure>
+                                <img src="n4.png" alt="" style="width:70px;">
+                            </figure>
+                        </div>
+                        <!-- Image Box end -->
+
+                        <!-- Image Box Body start -->
+                        <div class="image-body">
+                            <h3>Heritage</h3>
+                            <p>Venus caterings blends food and heart, rooted in family traditions.</p>
+                        </div>
+                        <!-- Image Box Body end -->
+                    </div>
+                </div>
+                <!-- Why Choose Us Image Box end -->
+            </div>
+
+        </div>
+    </div>
+    <!-- Why Choose Us End -->
+
+
+
+
+    <!-- Food Pricing End -->
+    <div class="testimonials-section mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-7">
+                    <!-- Section Ttite start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp" data-wow-delay="0.50s">Testimonial</h3>
+                        <h2 class="text-anime" style=" ">What People's Say About us?</h2>
+                    </div>
+                    <!-- Section Ttite end -->
+
+                    <div class="testimonial-slider-wrapper wow fadeInUp" data-wow-delay="0.75s">
+                        <!-- Testimonial Carousel start -->
+                        <div class="swiper testimonial-slider">
+                            <div class="swiper-wrapper">
+                                <!-- Testimonial Slide start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-slide">
+                                        <div class="testimonial-body">
+                                            <p>A very special day today in our life and this is the second time we booked Venus catering for birthday party and as expected the food and service was extremely well.Multi ple varieties and all tastes were awesome.
+                                                All our guests enjoyed and specially mentioned about food taste. Many thanks to Venus catering .. We really enjoyed and also India won today's match... Soo happy. Will definitely refer to all our friends
+                                                and relatives😀.</p>
+                                        </div>
+
+                                        <div class="testimonial-footer">
+                                            <h3>vinoth.R Sugan</h3>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide end -->
+
+                                <!-- Testimonial Slide start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-slide">
+                                        <div class="testimonial-body">
+                                            <p>I am a person who selected venus catering. Initially I was in a dilemma. Later I felt my decision is right. We ordered 300 breakfast and 300 lunch. Both are awesome. Thank you to Mr.Gurumurrthy. Your services
+                                                are great. Keep up your good work.</p>
+                                        </div>
+
+                                        <div class="testimonial-footer">
+                                            <h3>
+                                                Prem kumar Kalyanasundaram</h3>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide end -->
+
+                                <!-- Testimonial Slide start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-slide">
+                                        <div class="testimonial-body">
+                                            <p>Venus catering is very very good in catering service, their hospitality is very very good , unexpected crowd was came into my daughters marriage, but Mr .Gurumoorthy tackled the situation easily and immediately
+                                                managed and served to all coming to our marriage , I’m very very grateful to him , food they served was excellent and praised by all coming to our marriage at 18/2/24 &19/2/24.</p>
+                                        </div>
+
+                                        <div class="testimonial-footer">
+                                            <h3>Uma Devi</h3>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide end -->
+                                <!-- Testimonial Slide start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-slide">
+                                        <div class="testimonial-body">
+                                            <p>We have planned housewarming function on June 9th. We booked venus catering based on very good reviews. Both Gurumurthy sir and his son Ruthresh came in- person and provided Extradinory service. We are very
+                                                happy for the service and food items. Both our friends and family are very happy. Top class top notch food.</p>
+                                        </div>
+
+                                        <div class="testimonial-footer">
+                                            <h3>Sathish Kumar</h3>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide end -->
+                                <!-- Testimonial Slide start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-slide">
+                                        <div class="testimonial-body">
+                                            <p>I appreciate the exceptional service provided by Guru Murthy, the caterer, at my housewarming ceremony. His dedication and kindness were evident in the diverse and high-quality breakfast and lunch menu he offered.
+                                                The addition of a tea and coffee stall by Kumbakonam Degree added great value, leaving my guests delighted. Notably, Guru Murthy himself ensured the impeccable service by personally serving food and even
+                                                attending to guests. A heartfelt thank you for your outstanding service sir. Surely I will recommend your valuable service to my friends and relatives.</p>
+                                        </div>
+
+                                        <div class="testimonial-footer">
+                                            <h3>Sujith Joseph</h3>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide end -->
+                            </div>
+
+                            <div class="swiper-pagination">
+                                <div class="swiper-button swiper-button-next"></div>
+                                <div class="swiper-button swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <!-- Testimonial Carousel end -->
+                    </div>
+
+                </div>
+                <!-- Testimonial Img start -->
+                <div class="col-lg-6 col-md-5">
+                    <div class="testimonial-img">
+                        <img src="testimonial-img.png" alt="">
+                    </div>
+                </div>
+                <!-- Testimonial Img end -->
+            </div>
+        </div>
+    </div>
+    <!-- Restaurants Information Start -->
+    <div class="restaurant-inforamtion">
+        <div class="container">
+
+
+            <div class="row">
+                <!-- Counter Bar Item start -->
+                <div class="col-lg-3 col-6">
+                    <div class="counter-bar wow fadeInDown" data-wow-delay="1.50s">
+                        <div class="counter-bar-img">
+                            <img src="info-bar-4.jpg" alt="">
+                        </div>
+                        <div class="counter-bar-body">
+                            <h3><span class="counter">25</span>+</h3>
+                            <p>Years Of Excellence</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-bar wow fadeInUp" data-wow-delay="0.50s">
+                        <div class="counter-bar-img">
+                            <img src="info-bar-1.jpg" alt="">
+                        </div>
+                        <div class="counter-bar-body">
+                            <h3><span class="counter">250</span>+</h3>
+                            <p>Menu Options</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Info Bar Item end -->
+
+                <!-- Info Bar Item start -->
+                <div class="col-lg-3 col-6">
+                    <div class="counter-bar wow fadeInDown" data-wow-delay="0.75s">
+                        <div class="counter-bar-img">
+                            <img src="info-bar-2.jpg" alt="">
+                        </div>
+                        <div class="counter-bar-body">
+                            <h3><span class="counter">340</span></h3>
+                            <p>Staff</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Info Bar Item end -->
+
+                <!-- Info Bar Item start -->
+                <div class="col-lg-3 col-6">
+                    <div class="counter-bar wow fadeInUp" data-wow-delay="1.25s">
+                        <div class="counter-bar-img">
+                            <img src="info-bar-3.jpg" alt="">
+                        </div>
+                        <div class="counter-bar-body">
+                            <h3><span class="counter">125</span>k</h3>
+                            <p>Happy Foodies</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Info Bar Item end -->
+
+                <!-- Info Bar Item start -->
+
+                <!-- Info Bar Item end -->
+            </div>
+        </div>
+    </div>
+    <!-- Restaurants Information End -->
+
+    <!-- Testimonials Section Start -->
+
+
+    <!-- Testimonials Section End -->
+
+    <!-- Upcoming Events Post Start -->
+
+
+    <!-- Upcoming Events Post End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+
+        <!-- Scrolling Ticker Section Start -->
+        <div class="scrolling-ticker">
+            <div class="scrolling-ticker-box">
+                <div class="scrolling-content">
+                    <span><i class="fa-solid fa-circle"></i> Wedding </span>
+                    <span><i class="fa-solid fa-circle"></i> Anniversary</span>
+                    <span><i class="fa-solid fa-circle"></i> Engagement</span>
+                    <span><i class="fa-solid fa-circle"></i> Seemantham</span>
+                    <span><i class="fa-solid fa-circle"></i> Annaprasana</span>
+                    <span><i class="fa-solid fa-circle"></i> Birthday</span>
+                    <span><i class="fa-solid fa-circle"></i> House warming</span>
+                    <span><i class="fa-solid fa-circle"></i> Mehndi</span>
+                    <span><i class="fa-solid fa-circle"></i> Corporate</span>
+                    <span><i class="fa-solid fa-circle"></i> Retirement</span>
+                </div>
+
+                <div class="scrolling-content">
+                    <span><i class="fa-solid fa-circle"></i> Wedding </span>
+                    <span><i class="fa-solid fa-circle"></i> Anniversary</span>
+                    <span><i class="fa-solid fa-circle"></i> Engagement</span>
+                    <span><i class="fa-solid fa-circle"></i> Seemantham</span>
+                    <span><i class="fa-solid fa-circle"></i> Annaprasana</span>
+                    <span><i class="fa-solid fa-circle"></i> Birthday</span>
+                    <span><i class="fa-solid fa-circle"></i> House warming</span>
+                    <span><i class="fa-solid fa-circle"></i> Mehndi</span>
+                    <span><i class="fa-solid fa-circle"></i> Corporate</span>
+                    <span><i class="fa-solid fa-circle"></i> Retirement</span>
+                </div>
+            </div>
+        </div>
+        <!-- Scrolling Ticker Section End -->
+
+        <!-- Mega Footer Start -->
+        <div class="footer-mega">
+            <div class="container">
+                <!-- Footer Start -->
+                <div class="row">
+                    <!-- Footer About start -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer-about">
+                            <!-- Footer Logo start -->
+                            <div class="footer-logo">
+                                <img src="gn.png" alt="Logo" style="height: 80px; width: auto;">
+                            </div>
+                            <!-- Footer Logo end -->
+
+                            <!-- Footer Content start -->
+                            <div class="footer-content">
+                                <p class="mb-0">Let Venus Catering transform your special occasion into a masterpiece with our professional touch.</p>
+
+                                <div class="footer-social-link">
+                                    <a href="https://www.facebook.com/profile.php?id=61562488133861"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/venuscatering_tamilnadu?igsh=MW5raG1peG0zamw5ZQ=="><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://youtube.com/@gurumurrthy?si=S6sEf41ivdwWSkXd"><i class="fa-brands fa-youtube"></i></a>
+                                    <a href="https://wa.me/9840935064"><i class="fa-brands fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                            <!-- Footer Content end -->
+                        </div>
+                    </div>
+                    <!-- Footer About end -->
+
+                    <!-- Footer Menu start -->
+                    <div class="col-lg-5 col-md-7">
+                        <div class="row no-gutters">
+                            <div class="col-md-6 col-12">
+                                <div class="footer-links">
+                                    <h2>Our Services</h2>
+                                    <ul>
+                                        <li><a href="menu1.html"><i class="fa-solid fa-arrow-right"></i>Wedding Event</a></li>
+                                        <li><a href="menu2.html"><i class="fa-solid fa-arrow-right"></i>60th Wedding Event</a></li>
+                                        <li><a href="menu3.html"><i class="fa-solid fa-arrow-right"></i>70th Wedding Event</a></li>
+                                        <li><a href="menu4.html"><i class="fa-solid fa-arrow-right"></i>80th Wedding Event</a></li>
+                                        <li><a href="menu5.html"><i class="fa-solid fa-arrow-right"></i>Engagement
+                                            </a></li>
+                                        <li><a href="menu6.html"><i class="fa-solid fa-arrow-right"></i>Seemantham</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <div class="footer-links">
+
+                                    <ul class="footermar">
+                                        <li><a href="menu7.html"><i class="fa-solid fa-arrow-right"></i>Annaprasana</a></li>
+                                        <li><a href="menu8.html"><i class="fa-solid fa-arrow-right"></i>Birthday Party</a></li>
+                                        <li><a href="menu10.html"><i class="fa-solid fa-arrow-right"></i>House Warming</a></li>
+                                        <li><a href="menu11.html"><i
+                                                    class="fa-solid fa-arrow-right"></i>Mehndi Function</a></li>
+                                        <li><a href="menu12.html"><i class="fa-solid fa-arrow-right"></i>Corporate Events</a></li>
+                                        <li><a href="menu13.html"><i class="fa-solid fa-arrow-right"></i>Retirement Function</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Footer Menu end -->
+
+                    <!-- Footer Contact start -->
+                    <div class="col-lg-3 col-md-5">
+                        <div class="footer-contact">
+                            <h2>Contact Now</h2>
+                            <ul>
+                                <li>
+                                    <span class="icon-list-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                    <span class="icon-list-text">No.1/379B, Kannagi Street,
+                                        Jalladianpet, Pallikarani,
+                                        Medavakkam, Chennai - 600 100.</span>
+                                </li>
+                                <li>
+                                    <span class="icon-list-icon"><i class="fa-solid fa-phone"></i></span>
+                                    <span class="icon-list-text"><a href="tel:+91 98409 35064">+91 98409 35064 </a>
+                                        <br /><a href="tel:+91 91713 63371"> +91 91713 63371 </a></span>
+
+                                </li>
+                                <li>
+                                    <span class="icon-list-icon"><i class="fa-solid fa-envelope"></i></span>
+                                    <span class="icon-list-text"><a
+                                            href="mailto:gurumurrthy@gmail.com">gurumurrthy@gmail.com</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Footer Contact end -->
+                </div>
+                <!-- Footer End -->
+
+                <!-- Footer Subscribe Form Start -->
+
+                <!-- Footer Subscribe Form End -->
+
+                <!-- Footer Copyright Start -->
+                <div class="footer-copyright mt-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>© 2024 <strong>Venus Caterings</strong> All rights reserved | Designed By <a href="https://olivegrapes.in" style="color: #E9b472;">Olivegrapes.</a>
+                            </p>
+                        </div>
+                        <div class="col-md-6 text-end">
+                            <a href="#hero-section" class="footer-btn"><span>Go to Top</span><i
+                                    class="fa-solid fa-arrow-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Copyright End -->
+            </div>
+        </div>
+        <!-- Mega Footer End -->
+    </footer>
+    <!-- Footer End -->
+
+    <script>
+        var words = ["Vanakkam!", "Hello!", "Namaste!"];
+        var index = 0;
+        var wordElement = document.getElementById("word2");
+
+        function displayNextWord() {
+            wordElement.textContent = words[index];
+            index = (index + 1) % words.length;
+            wordElement.classList.remove("word-animation");
+            void wordElement.offsetWidth; // Trigger reflow to restart animation
+            wordElement.classList.add("word-animation");
+        }
+
+        displayNextWord();
+        setInterval(displayNextWord, 2000); // Change word every 3 seconds (adjust to match animation duration)
+    </script>
+    <!-- Jquery Library File -->
+    <script src="jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="jquery.waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <!-- WayPoints js file -->
+    <script src="jquery.waypoints.min.js"></script>
+    <!-- Isotop js file -->
+    <script src="isotope.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="jjquery.magnific-popup.min.js"></script>
+    <!-- Parallax js file -->
+    <script src="parallaxie.js"></script>
+    <!-- SmoothScroll -->
+    <script src="SmoothScroll.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="gsap.min.js"></script>
+    <script src="magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="splitType.js"></script>
+    <script src="ScrollTrigger.min.js"></script>
+    <!-- Wow js file -->
+    <script src="wow.js"></script>
+    <!-- Main Custom js file -->
+    <script src="function.js"></script>
+</body>
+
+</html>
